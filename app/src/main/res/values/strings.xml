@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">European Union Quiz</string>
+    <string name="introduction">This quiz was created in order to check your basic knowledge about European Union organization or EU. (Brno, 2018)</string>
+    <string name="question_1">1. What is the official currency of the EU?</string>
+    <string name="answer_1_a">euro</string>
+    <string name="answer_1_b">dollar</string>
+    <string name="answer_1_c">krone</string>
+    <string name="answer_1_d">baht</string>
+    <string name="wrong">Try it again!</string>
+    <string name="correct">Correct!</string>
+    <string name="question_2">2. How many countries are members of the EU? (incl. UK)</string>
+    <string name="hint">11</string>
+    <string name="question_3">3. Which of these countries is(are) <u>not</u> member(s) of the EU?</string>
+    <string name="answer_3_a">Norway</string>
+    <string name="answer_3_b">Slovakia</string>
+    <string name="answer_3_c">Poland</string>
+    <string name="answer_3_d">Switzerland</string>
+    <string name="answer_3_e">Turkey</string>
+    <string name="answer_3_f">Greece</string>
+    <string name="question_4">4. Who is the author of \"Ode to Joy\", the EU anthem?</string>
+    <string name="answer_4_a">J.S. Bach</string>
+    <string name="answer_4_b">W.A. Mozart</string>
+    <string name="answer_4_c">L.van Beethoven</string>
+    <string name="answer_4_d">C. Debussy</string>
+    <string name="question_5">5. Choose the official EU flag.</string>
+    <string name="submit_button">Submit</string>
+    <string name="reset_button">Reset</string>
+    <string name="number_of_points">Your score: </string>
+
+</resources>
