@@ -127,7 +127,9 @@ public class MainActivity extends AppCompatActivity {
         //delete the score
         points =0;
     }
+    //method called to delete all changes in the quiz
     public void onReset (View view) {
+        //deleting the radiogroups choosen buttons
     RadioGroup radioGroup1 = findViewById(R.id.radio_group1);
     radioGroup1.clearCheck();
     RadioGroup radioGroup2 = findViewById(R.id.radio_group2);
@@ -135,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
     RadioGroup radioGroup3 = findViewById(R.id.radio_group3);
     radioGroup3.clearCheck();
 
+    //deleting the answer if it's wrong or right
     TextView hint1 = findViewById(R.id.response_1);
     hint1.setText("");
     TextView hint2 = findViewById(R.id.response_2);
@@ -146,9 +149,11 @@ public class MainActivity extends AppCompatActivity {
     TextView hint5 = findViewById(R.id.response_5);
     hint5.setText("");
 
+    //delete 2. answer
     EditText numberOfCountries = findViewById(R.id.members);
     numberOfCountries.setText("");
 
+    //delete 3. answer
     CheckBox norway = findViewById(R.id.norway);
     norway.setChecked(false);
     CheckBox poland = findViewById(R.id.poland);
@@ -161,6 +166,8 @@ public class MainActivity extends AppCompatActivity {
     switzerland.setChecked(false);
     CheckBox greece = findViewById(R.id.greece);
     greece.setChecked(false);
+
+    //delete the final score message
     TextView finalScore = findViewById(R.id.score_text);
     finalScore.setText(R.string.number_of_points);
     points = 0;
